@@ -34,7 +34,7 @@ div > p {
     color: white;
 }
 
-article > h2 {
+section > h2 {
     color: var(--cor-das-letras);
 }
 
@@ -48,8 +48,31 @@ main {
     width: 120px;
 }
 
-.section{
-    columns: 3;
-    
-    
+.section {
+     columns: 3;
+}
+
+.projects > h2 {
+    color: var(--cor-das-letras);
+}
+
+section > img {
+    width: 350px;
+    height: 250px;
+}
+
+section > h3 {
+    color: #14faff;
+}
+
+section > a {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+footer > a {
+    justify-content: flex-end;
 }
